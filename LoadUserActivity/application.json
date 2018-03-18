@@ -1,0 +1,12 @@
+﻿{
+ "ConnectionStrings": {
+  "DefaultConnection": "Server=localhost,1433;Database=activity; user id=sa; password=P@55w0rd;"
+ },
+ "RabbitMQConfigs" :  {
+   "HostName":  "localhost",
+   "Port": 5672,
+   "UserName":  "guest",
+   "Password":  "guest",
+   "Queue": "LoadUserActivity",
+ }
+}
